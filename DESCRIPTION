@@ -1,0 +1,21 @@
+Package: scRecluster
+Title: Iterative re-clustering of scRNA-seq data
+Version: 1.0.0
+Authors@R: 
+    person("Kfang666", email = "244163777@qq.com", 
+           role = c("aut", "cre"))
+Description: Hierarchical clustering refinement for scRNA-seq data. scRNA-seq data needs to be preliminarily analyzed using the Seurat package to obtain seurat_clusters.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Seurat (>= 4.1.0),
+    dplyr,
+    ggplot2,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
